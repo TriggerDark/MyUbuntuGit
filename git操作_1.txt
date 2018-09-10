@@ -1,0 +1,27 @@
+git config --global user.name xxx
+git config --global user.email xxx.@x.com
+mkdir git版本库//建立git版本库(自己命名)
+cd git版本库//修改目录于新建的文件名
+git init//把当前目录变成Git可管理的库-->可通过ls -alh 显示.git目录
+git add readme.txt//将readme.txt文件通过git add添加到库内--可以一次添加多个文件
+git commit -m "wrote a readme file"//-m后面最好输入有意义的改动记录
+
+修改文件后
+git status//库当前状态
+git diff readme.txt//查看具体修改了什么内容
+git add readme.txt
+git status//Changes to be committed
+git commit -m "add distributed"//提交
+
+再次修改文件
+git log//查看历史记录
+git log --pretty=oneline//类似4fbb2fa...的是commit id(版本号)
+git reset --hard HEAD^//回到上个版本
+git reset --hard HEAD^^//上上个版本
+git reset --hard HEAD~100//上一百个版本
+
+//再回到未来某个版本可通过部分commit id 如04fbb2fa
+git reset --hard 4fbb2fa
+
+//如果找不到commit id记录
+git reflog//查看命令历史
