@@ -1,0 +1,13 @@
+1.未提交
+git status
+(1)此时可以手动恢复文件
+(2)git checkout -- file:修改已经放到暂存区的file，
+让file回到最近一次git commit或者git add状态
+
+2.提交但没有提交到版本库
+(1)使用git add但在commit之前
+git reset HEAD file:把放入暂存区的file撤回
+git checkout -- file:同1中(2)
+
+3.提交到版本库但没有提交到远程版本库
+使用版本回退见Git操作_1
