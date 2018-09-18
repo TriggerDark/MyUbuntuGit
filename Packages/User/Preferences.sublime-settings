@@ -1,0 +1,18 @@
+{
+	"attr":
+	{
+		"author": "lirongwei",
+		"email": "2403044193@qq.com.cn"
+	},
+	"color_scheme": "Packages/Color Scheme - Default/Celeste.sublime-color-scheme",
+	"date_format": "%Y-%m-%d %H:%M:%S",
+	"disable_keymap_actions": false,
+	"font_size": 20,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 4,
+	"theme": "Soda Light 3.sublime-theme",
+	"translate_tabs_to_spaces": true
+}
