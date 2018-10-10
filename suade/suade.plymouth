@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Suade Plymouth theme
+Description=Suade Ubuntu Studio Plymounth theme
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/suade
+ScriptFile=/usr/share/plymouth/themes/suade/mdv.script
